@@ -1,0 +1,8 @@
+
+https://wiki.python.org/moin/TimeComplexity
+
+http://en.wikipedia.org/wiki/Reference_counting
+
+http://en.wikipedia.org/wiki/Garbage_collection_(computer_science)
+
+

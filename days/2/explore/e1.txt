@@ -1,0 +1,23 @@
+Exploration 1 - Day 2 (files)
+------------------------------
+The current directory has a file "marks.txt" each
+line of which contains the name of a student as well
+as his mark.
+
+Write a small python script which will print the sum of
+marks of all the students.
+
+Do it in two ways:
+
+a) Read each line (using a for loop), split it into two parts,
+convert the second part to int and add it to a cumulative sum.
+
+b) Use a for comprehension to generate a list of marks, call the
+sum function to sum it.
+
+
+Which is more elegant?
+
+c) Can you mention one disadvantage of using the for-comprehension?
+
+

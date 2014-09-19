@@ -1,0 +1,7 @@
+1) first demonstrate effect of gc with interactive python prompt. Use "htop"
+to display memory
+
+2) Explain ref-counting
+
+3) Mention cyclical references
+

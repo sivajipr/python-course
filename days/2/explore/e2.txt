@@ -1,0 +1,28 @@
+Exploration 2 - Day 2 (Functions - basics)
+-------------------------------------------
+
+a) Define a function:
+
+def hcf(a, b):
+    
+    return ...
+
+---
+The function should compute and return the highest common factor
+of a and b using  euclid's algorithm.
+
+-------------------------------------------------
+b) Define a function:
+
+def my_sum(x):
+    
+    return ...
+
+
+The parameter `x' is a list of numbers. The function my_sum should
+compute the sum of all values in `x' using an explicit "for" loop and
+without using any built-in functions. The computed sum should be returned.
+
+
+
+

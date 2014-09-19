@@ -1,0 +1,20 @@
+Long Lines & Continuations
+------------------------------
+
+Keep lines below 80 characters in length.
+
+Use implied line continuation inside parentheses/brackets/braces:
+
+def __init__(self, first, second, third,
+             fourth, fifth, sixth):
+    output = (first + second + third
+              + fourth + fifth + sixth)
+Use backslashes as a last resort:
+
+VeryLong.left_hand_side \
+    = even_longer.right_hand_side()
+
+Backslashes are fragile; they must end the line they're on. 
+If you add a space after the backslash, it won't work any more. 
+Also, they're ugly.
+

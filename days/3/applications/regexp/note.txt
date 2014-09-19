@@ -1,0 +1,9 @@
+
+Regular expressions are *very* tricky!
+
+Use them with caution.
+
+For very simple substring searching, don't use regexps, simply
+use "find" method on strings.
+
+

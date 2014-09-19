@@ -1,0 +1,23 @@
+Long lines ...
+------------------
+
+text = ('Long strings can be made up '
+        'of several shorter strings.')
+The parentheses allow implicit line continuation.
+
+Multiline strings use triple quotes:
+
+"""Triple
+double
+quotes"""
+
+
+'''\
+Triple
+single
+quotes\
+'''
+In the last example above (triple single quotes), note how the backslashes are used to escape the newlines. 
+This eliminates extra newlines, while keeping the text and quotes nicely left-justified. 
+The backslashes must be at the end of their lines.
+

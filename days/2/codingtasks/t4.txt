@@ -1,0 +1,16 @@
+
+Refer the "Python practice book", chapter 2
+
+Do the following programs:
+
+Problem 6 - list reversal (the function should return a reversed list, the input 
+list should not be modified - dont use any builtin functions)
+
+Problems 7, 8, 9, 10, 11, 12 
+
+Problems 15, 17, 18, 19, 20, 21
+
+
+
+
+

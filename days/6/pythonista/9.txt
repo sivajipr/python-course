@@ -1,0 +1,37 @@
+Docstrings & Comments
+========================
+
+Docstrings = How to use code
+
+Comments = Why (rationale) & how code works
+
+Docstrings explain how to use code, and are for the users of your code. Uses of docstrings:
+
+Explain the purpose of the function even if it seems obvious to you, 
+because it might not be obvious to someone else later on.
+
+Describe the parameters expected, the return values, and any exceptions raised.
+If the method is tightly coupled with a single caller, 
+make some mention of the caller (though be careful as the caller might change later).
+
+Comments explain why, and are for the maintainers of your code. 
+
+Examples include notes to yourself, like:
+
+# !!! BUG: ...
+
+# !!! FIX: This is a hack
+
+# ??? Why is this here?
+
+Both of these groups include you, so write good docstrings and comments!
+
+Docstrings are useful in interactive use (help()) and for auto-documentation systems.
+
+False comments & docstrings are worse than none at all. 
+So keep them up to date! When you make changes, make sure 
+the comments & docstrings are consistent with the code, and don't contradict it.
+
+There's an entire PEP about docstrings, PEP 257, "Docstring Conventions":
+
+http://www.python.org/dev/peps/pep-0257/

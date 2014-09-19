@@ -1,0 +1,7 @@
+
+_ stores last printed value
+
+(int the interactive environment)
+
+
+

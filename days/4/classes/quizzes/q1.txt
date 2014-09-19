@@ -1,0 +1,76 @@
+
+1) What is the output produced by the following program?
+
+class Foo:
+    pass
+
+f = Foo()
+print f.x
+
+-----
+a) Run time error
+b) None
+
+-------------------------------------------------------------
+
+2) What is the output produced by the following program?
+
+class Foo:
+    x = 1
+
+print Foo.x
+
+---
+a) Run time error
+b) 1
+
+-------------------------------------------------------------
+
+3) What is the output produced by the following program?
+
+class Foo:
+    x = 1
+
+f = Foo()
+print f.x
+
+---
+a) 1
+b) Run time error
+
+------------------------------------------------------------
+
+4) What is the output produced by the following program?
+
+class Foo:
+    x = 1
+
+f = Foo()
+f.x = 2
+print Foo.x
+
+---
+a) 1
+b) Run time error 
+ 
+------------------------------------------------------------
+
+5) What is the output produced by the following program?
+
+class Foo:
+    pass
+
+def fun(g):
+    g.x = 2
+
+f = Foo()
+f.x = 1
+fun(f)
+
+print f.x
+---
+
+a) 1
+b) 2
+
+ 

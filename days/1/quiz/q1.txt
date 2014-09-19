@@ -1,0 +1,91 @@
+Quiz 1 (Day 1)
+--------------
+
+1) What is the output of the following program?
+
+a = [1,2,3]
+b = a
+del(b[0])
+
+print a
+
+---
+
+a) [1, 2, 3]
+
+b) [2, 3]
+
+---------------------------------------
+
+2) What is the output of the following program?
+
+a = [1, 2, 3]
+b = [a]
+b[0].pop()
+print a
+
+---
+a) [1, 2]
+
+b) [1, 2, 3]
+
+c) None of the above
+
+--------------------------------------
+
+3) What is the output of the following program?
+
+a = [1, 2, 3]
+b = [[a]]
+b[0].append(4)
+print b
+
+---
+a) [[[1, 2, 3], 4]]
+
+b) [[[1, 2, 3, 4]]]
+
+c) [[1, 2, 3], 4]
+
+d) None of the above
+
+------------------------------------------------------
+
+4) What is the output of the following program?
+
+b = [1]
+
+c = b
+
+a = [6, c, 7, c, 8, c]
+
+b = [2]
+
+print a
+
+---
+a) [6, [1], 7, [1], 8, [1]]
+
+b) [6, [2], 7, [2], 8, [2]]
+
+c) None of the above
+
+-----------------------------------------------------
+
+5) What is the output of the following program?
+
+b = [1]
+c = b
+a = [6, c, 7, c, 8, c]
+b[0] = 2
+print a
+
+---
+a) [6, [1], 7, [1], 8, [1]]
+
+b) [6, [2], 7, [2], 8, [2]]
+
+c) None of the above
+
+-------------------------------------------------------
+

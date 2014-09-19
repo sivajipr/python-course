@@ -1,0 +1,43 @@
+
+Exploration 1 (Day 1) (list/tuple)
+------------------------------------
+
+a) Can you find out the approximate amount of memory consumed
+by a Python list of integers of length 10000000?
+
+b) Demonstrate the working of the "extend" method on lists
+
+c) Demonstrate the working of the "index" method on lists
+
+d) Demonstrate the working of the following list methods: count, reverse, pop
+
+e) Lists have a "sort" method on them; there is also a function called "sorted".
+   Find out in what way these are different
+
+
+f) If you do b = a[::], it creates a "shallow copy" of 'a'. Your job is to find
+out what is meant by this.
+
+First, try out:
+
+a = [1,2,[3,4]]
+
+b = a[:]
+
+b.append(10)
+
+print b
+print a
+
+---
+Then, try out:
+
+b[2].append(5)
+print b
+print a
+
+---
+
+What do you find?
+
+

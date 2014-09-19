@@ -1,0 +1,33 @@
+#!/usr/bin/python
+
+import requests
+import json, sys, os
+
+def usage():
+    print '%s programfile' % sys.argv[0]
+
+
+
+def main():
+    if len(sys.argv) < 2:
+        usage()
+        raise SystemExit
+
+    programfile = sys.argv[1][0:-3] # remove trailing .py
+    module = __import__(programfile)    
+
+    # Get all symbols, name starting with testcase_
+    testcases = [x  for x in dir(module) if x.startswith('testcase_')]    
+
+    ntests = len(testcases)
+
+    # Convert all those symbols to functions
+    f_list = [getattr(module, x) for x in testcases]
+
+    # Call all those functions and sum the results
+    score = sum([f() for f in f_list])
+
+    print 'your score: %d / %d' % (score, ntests)
+    
+if __name__ == '__main__':
+    main()

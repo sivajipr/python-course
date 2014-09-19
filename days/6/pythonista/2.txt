@@ -1,0 +1,8 @@
+
+Programs must be written for people to read, and only incidentally for machines to execute.
+
+        —Abelson & Sussman, Structure and Interpretation of Computer Programs
+
+PEP 8: http://www.python.org/dev/peps/pep-0008/
+
+

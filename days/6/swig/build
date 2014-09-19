@@ -1,0 +1,5 @@
+swig -python -module arith arith.c
+
+gcc -I/usr/include/python2.7 -c arith.c arith_wrap.c
+
+ld -shared -o _arith.so arith.o arith_wrap.o

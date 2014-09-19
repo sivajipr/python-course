@@ -1,0 +1,19 @@
+
+
+DONT DO:
+
+from module import *
+
+DO:
+
+import module
+module.name
+
+OR
+
+import long_module_name as mod
+mod.name
+
+OR
+
+from module import name

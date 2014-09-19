@@ -1,0 +1,17 @@
+key concepts
+------------
+
+*) Automatic memory management/garbage collection
+
+*) Performance of key data structures
+
+*) Object equality
+
+new syntax
+-----------
+
+*) Function basics
+
+*) File handling basics
+
+

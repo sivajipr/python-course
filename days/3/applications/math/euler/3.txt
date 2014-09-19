@@ -1,0 +1,30 @@
+
+We see that (10**s - 1) / s seems to be converging to 
+2.302.
+
+Let's write, for small values of s:
+
+(10**s - 1) / s = 2.3026
+
+It follows that:
+
+10**s - 1 = 2.3026*s
+
+10**s = 1 + 2.3026*s
+
+Let's now replace `s' by the value s/2.3026. We get:
+
+10**(s/2.3026) = 1 + 2.3026*(s/2.3026) = 1 + s
+
+that is:
+
+10**(1/2.3026) = 2.7182
+
+What is 2.7182? It is our "e"!!
+
+So:
+
+e**s = 1 + s
+
+for small values of s.
+

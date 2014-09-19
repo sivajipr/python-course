@@ -1,0 +1,13 @@
+Don't reinvent the wheel
+
+Before writing any code,
+
+Check Python's standard library.
+
+Check the Python Package Index (the "Cheese Shop"):
+
+http://cheeseshop.python.org/pypi
+
+Search the web. Google is your friend.
+
+

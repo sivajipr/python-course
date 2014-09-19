@@ -1,0 +1,84 @@
+Quiz 0 - Day 2
+----------------
+
+
+1)What is the output produced by the program
+shown below:
+
+---
+def fun(a, b):
+    return a + b
+
+x = fun(1, "hello")
+print x
+
+a) Run time error
+b) 1hello
+c) Neither of the above
+
+--------------------------------------------------------
+
+2) What is the output produced by the following program?
+
+def fun(a, b=1):
+    return a + b
+
+x = fun(10)
+print x
+
+a) 11
+b) Run time error
+
+-------------------------------------------------------
+
+3) What is the output produced by running the following program?
+
+def fun(a=1, b):
+    return a + b
+
+
+a) Nothing happens because the function is not called
+b) Syntax error
+
+-----------------------------------------------------
+ 
+4) What is the output produced by running the following program?
+
+def fun(a=1, b):
+    return a + b
+
+x = fun(10)
+print x
+
+a) 11
+b) Syntax error
+
+----------------------------------------------------
+
+5) What is the output produced by running the following program? 
+
+def fun(a, *b):
+    return (a, b)
+
+x = fun(1, 2, 3)
+print x
+
+a) (1, (2, 3))
+b) (1, 2, 3)
+c) Neither of the above
+
+----------------------------------------------------
+
+6) What is the output produced by running the following program?
+
+def fun(a, *b, **c):
+    return a + b[1] + c['red']
+
+x = fun(10, 20, 30, green=1, red=2)
+print x
+
+a) 42
+b) 40
+c) Neither
+
+----------------------------------------------------

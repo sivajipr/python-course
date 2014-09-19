@@ -1,0 +1,24 @@
+
+Exploration 0 (Day 1) (strings)
+---------------------------------
+
+Note 1 : You can do dir('') to get a list of methods applicable
+to strings.
+
+Note 2: You can do help(''.methodname) to get a brief description
+of the working of the method 'methodname' (for example: help(''.zfill)
+to get some idea of the working of zfill).
+
+
+---
+
+1) Find out the working of the "zfill" method on strings
+
+2) Find out the working of the "find" method on strings
+
+3) Explore the working of the "replace" method on strings
+
+4) Explore the working of the "rpartition" method on strings
+
+---
+

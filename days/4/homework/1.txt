@@ -1,0 +1,9 @@
+
+Read and work out the code samples in section 4.1 to 4.5 of the
+Python practice book:
+
+http://anandology.com/python-practice-book/object_oriented_programming.html
+
+Post on the mailing list if you need clarifications.
+
+

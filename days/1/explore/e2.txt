@@ -1,0 +1,17 @@
+
+Exploration 2 (Day 1) - Dictionary
+----------------------------------
+
+a) Explore the working of the "update" method of a dictionary
+
+b) Explore the working of the "copy" method of a dictionary.
+
+c) Can you demonstrate why "copy" is called "shallow"?
+
+d) Try to create a dictionary with each of the following types as keys: integer,
+real number, string, list, tuple, dictionary, set.
+
+Which of them work as keys?
+
+
+

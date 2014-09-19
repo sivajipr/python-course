@@ -1,0 +1,10 @@
+Exploration 0 - Day 2 (performance/memory)
+------------------------------------
+
+a) Explore the performance of the | and & operators on sets 
+
+b) Is automatic memory management a good idea? Can you think of
+some situation where having automatic memory management can be
+a disadvantage?
+
+

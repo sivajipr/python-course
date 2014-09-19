@@ -1,0 +1,19 @@
+Practicality Beats Purity
+===========================
+
+There are always exceptions. From PEP 8:
+
+But most importantly: know when to be inconsistent -- 
+sometimes the style guide just doesn't apply. When in doubt, use your 
+best judgment. Look at other examples and decide what looks best. 
+And don't hesitate to ask!
+
+Two good reasons to break a particular rule:
+
+When applying the rule would make the code less readable, 
+even for someone who is used to reading code that follows the rules.
+
+To be consistent with surrounding code that also breaks it (maybe for historic reasons) 
+-- although this is also an opportunity to clean up someone else's mess (in true XP style).
+
+... but practicality shouldn't beat purity to a pulp!

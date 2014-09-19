@@ -1,0 +1,9 @@
+Exploration 3 - Day 1 (Set)
+----------------------------
+
+a) Try to create a set with another set as its member. Does it work?
+
+b) Try to create a set with a list as its member. Does it work?
+
+c) Demonstrate the working of the following methods: isdisjoint, issubset
+

@@ -1,0 +1,5 @@
+John     22    78
+Hari     25    3
+Gopal    24    25
+Rishi    23    4
+Paul     27    9

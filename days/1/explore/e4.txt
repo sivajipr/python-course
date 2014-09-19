@@ -1,0 +1,31 @@
+Exploration 4 (Day 1) - Loops
+-------------------------------
+
+a) Try the following code:
+
+a = range(5)
+
+for x in reversed(a):
+    print x
+
+-----
+b) Read the code below and analyze (without running the code)
+whether it would print the message 'hello' or not:
+
+for i in range(10):
+    print i
+else:
+    print 'hello'
+
+
+Now, run the code and verify.
+----
+
+c) Read the code below and analyze:
+
+n = 15
+
+while(n):
+    
+
+

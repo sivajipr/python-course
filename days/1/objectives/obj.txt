@@ -1,0 +1,13 @@
+
+* History / Applications / Implementations / 2.x vs 3.x
+
+* Key Concepts:
+
+a) Dynamic Typing
+b) Static Typing / Type Inference
+c) Automatic Memory Management
+d) Execution Model / Errors
+e) Reference Semantics
+f) Mutability / shallow and deep copying
+g) List/Dictionary/Set Comprehensions
+

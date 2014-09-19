@@ -1,0 +1,25 @@
+Compound Statements
+-----------------------
+
+Good:
+------
+
+if foo == 'blah':
+    do_something()
+do_one()
+do_two()
+do_three()
+
+
+Bad:
+-----
+
+if foo == 'blah': do_something()
+do_one(); do_two(); do_three()
+
+
+Whitespace & indentations are useful visual indicators of the program flow. 
+The indentation of the second "Good" line above shows the reader that 
+something's going on, whereas the lack of indentation in "Bad" hides the "if" statement.
+
+Multiple statements on one line are a cardinal sin. In Python, readability counts.

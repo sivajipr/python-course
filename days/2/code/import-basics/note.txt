@@ -1,0 +1,6 @@
+
+You can make a file "executable" by doing:
+
+chmod u+x filename
+
+

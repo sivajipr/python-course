@@ -1,0 +1,5 @@
+a) Change to locals dict does not affect local vars:
+
+http://stackoverflow.com/questions/1450275/modifying-locals-in-python
+
+

@@ -1,0 +1,16 @@
+Whitespace - 1
+----------------
+
+4 spaces per indentation level.
+
+No hard tabs.
+
+Never mix tabs and spaces.
+
+This is exactly what IDLE and the Emacs Python mode support. Other editors may also provide this support.
+
+One blank line between functions.
+
+Two blank lines between classes.
+
+

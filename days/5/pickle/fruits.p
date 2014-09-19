@@ -1,0 +1,11 @@
+(dp0
+S'orange'
+p1
+I50
+sS'mango'
+p2
+I100
+sS'apple'
+p3
+I90
+s.

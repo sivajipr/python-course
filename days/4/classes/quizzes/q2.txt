@@ -1,0 +1,80 @@
+
+1) What is the output produced by the following program?
+
+class Foo:
+    def __init__(self, n):
+        self.x = n
+
+f = Foo()
+print f.x
+
+---
+a) Run time error
+b) None
+
+-----------------------------------------------------
+
+2) What is the output produced by the following program?
+
+class Foo:
+    def __init__(self, n):
+        self.x = n
+
+f = Foo(10)
+print f.x
+---
+
+a) 10
+b) Run time error
+
+-----------------------------------------------------
+
+3) What is the output produced by the following program?
+
+class Foo:
+    def __init__(self, n=0):
+        self.x = n
+
+f = Foo()
+print f.x
+---
+
+a) Run time error
+b) 0
+
+-------------------------------------------------
+
+4) What is the output produced by the following program?
+
+class Foo:
+    def __init__(self):
+        self.x = 0
+    def add(self, n):
+        x = x + n
+
+f = Foo()
+f.add(10)
+print f.x
+---
+
+a) Run time error
+b) 10
+
+------------------------------------------------
+
+5) What is the output produced by the following program?
+
+class Foo:
+    x = 1
+    def __init__(self):
+        self.x = 0
+    def show(self):
+        print x
+
+f = Foo()
+f.show()
+---
+
+a) Run time error
+b) 1
+

@@ -1,0 +1,128 @@
+Quiz 0 (Day 1)
+----------------
+
+1) What will be the output of the following program?
+
+x, y = 1, 2
+x, y = y, x + 10
+print x, y
+
+---
+a) 2 11
+b) 2 12
+c) None of the above
+
+-------------------------------------------------------
+
+2) What will be the output of the following program?
+
+a, b = 2, 3
+c, b = a, c + 1
+print a, b, c
+
+---
+a) 2 3 2
+b) Run time error
+c) None of the above
+
+-------------------------------------------------------
+
+3) What will be the output of the following program?
+
+a = 2
+if a == 1:
+    y = 10
+else:
+    y = "10"
+
+print y / 2
+
+---
+a) "5"
+b) 5
+c) Run time error
+d) None of the above
+
+--------------------------------------------------------
+
+4) What will be the output of the following program?
+
+print 0x10 + 011 + 12
+
+---
+a) 37
+b) 33
+c) 31
+
+---------------------------------------------------------
+5) What will be the output of the following program?
+
+print (1 < 10) and (1 / 0)
+
+---
+a) True
+b) False
+c) Run time error
+
+--------------------------------------------------------
+
+6) What will be the output of the following program?
+
+print (1 < 10) or (1 / 0)
+
+---
+a) True
+b) False
+c) Run time error
+
+---------------------------------------------------------
+
+7) What will be the output of the following program?
+
+print 10 or 20
+
+
+---
+a) 10
+b) 20
+c) True
+d) False
+
+-------------------------------------------------------
+
+8) What will be the output of the following program?
+
+print 10 and 20
+
+---
+a) 10
+b) 20
+c) True
+d) False
+
+-------------------------------------------------------
+
+9) What will be the output of the following program?
+
+print 0xff & 01
+
+---
+a) 255
+b) 1
+c) 0xff
+d) None of the above
+
+-------------------------------------------------------
+
+10) What will be the output of the following program?
+
+print 018
+
+---
+a) 15
+b) 18
+c) Syntax Error
+d) None of the above
+
+
+

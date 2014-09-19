@@ -1,0 +1,6 @@
+
+a) Stress the "iterable" nature of a file handle.
+
+b) Mention importance of "stripping" lines.
+
+
